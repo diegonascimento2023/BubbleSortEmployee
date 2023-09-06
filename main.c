@@ -137,7 +137,7 @@ int main() {
     tempo = tempo * 1000; //milisegundos
     printf("Tempo de execucao: %.50f\n", tempo); */
 
-    LimpaBuffer(VarFuncionario, contador);
+   Liberamemoria(VarFuncionario, contador);
     
 
     return 0;
