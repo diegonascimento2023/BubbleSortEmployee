@@ -161,7 +161,7 @@ void OrdenarEAtualizarArquivo(FILE *arquivo, Funcionario **VarFuncionario, int c
     }
 }
 
-void LimpaBuffer(Funcionario **VarFuncionario, int tamanho) {
+void Liberamemoria(Funcionario **VarFuncionario, int tamanho) {
     int i;
 
     for (int i = 0; i < tamanho; i++) {
